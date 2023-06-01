@@ -212,12 +212,12 @@ h3 {
   .side-bar .subscrbed-list a p {
     display: block;
   }
-  /* .small-sidebar .shortcut-links a:hover {
+  .small-sidebar .shortcut-links a:hover {
     width: 0px;
     display: none;
     text-decoration: none;
     transition: none;
-  } */
+  }
   .container,
   .large-contaner {
     padding-left: 5%;
