@@ -88,20 +88,27 @@ nav {
   display: flex;
   align-items: center;
   margin-bottom: 20px;
-  width: 90%;
-  position: relative;
-  transition: box-shadow 0.3s, transform 0.2s;
-  padding: 8px 12px;
-  border-radius: 25px;
+  width: fit-content;
+  flex-wrap: wrap;
 }
 
-.shortcut-links a {
-}
-
-.shortcut-links a:hover {
-  box-shadow: 0 0 18px rgba(0, 0, 0, 0.3);
-  width: 180px;
-  transform: scale(1.1);
+/* --------------------------- Hover effect only be shown if user opens on a desktop (min-width: 768)----------------------------- */
+@media (min-width: 768px) {
+  .shortcut-links a {
+    width: 90%;
+    position: relative;
+    transition: box-shadow 0.3s, transform 0.2s;
+    padding: 8px 12px;
+    border-radius: 25px;
+  }
+  .shortcut-links a:hover {
+    box-shadow: 0 0 18px rgba(0, 0, 0, 0.3);
+    width: 180px;
+    transform: scale(1.1);
+  }
+  .small-sidebar a:hover {
+    width: 45px;
+  }
 }
 
 .side-bar hr {
@@ -146,9 +153,7 @@ h3 {
   display: none;
 }
 
-.small-sidebar a:hover {
-  width: 45px;
-}
+
 .small-sidebar hr {
   width: 50px;
   margin-bottom: 25px;
@@ -220,22 +225,6 @@ h3 {
   .small-sidebar .subscrbed-list a p {
     display: block;
   }
-
-  .small-sidebar .shortcut-links a:hover {
-    box-shadow: 0 0 20px rgba(220, 10, 10, 0.3);
-    width: 160px;
-    transform: scale(1.1);
-  }
-
-  .small-sidebar .subscrbed-list a:hover {
-    box-shadow: 0 0 20px rgba(220, 10, 10, 0.3);
-    width: 160px;
-    transform: scale(1.1);
-  }
-
-  /* .small-sidebar .subscrbed-list a:hover {
-    width: 50%;
-  } */
   .container,
   .large-contaner {
     padding-left: 5%;
