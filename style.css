@@ -212,7 +212,7 @@ h3 {
   }
   .small-sidebar {
     display: block;
-    width: 45%;
+    width: 50%;
   }
   .small-sidebar .shortcut-links a p {
     display: block;
@@ -223,13 +223,13 @@ h3 {
 
   .small-sidebar .shortcut-links a:hover {
     box-shadow: 0 0 20px rgba(220, 10, 10, 0.3);
-    width: 0;
+    width: 160px;
     transform: scale(1.1);
   }
 
   .small-sidebar .subscrbed-list a:hover {
     box-shadow: 0 0 20px rgba(220, 10, 10, 0.3);
-    width: 180px;
+    width: 160px;
     transform: scale(1.1);
   }
 
