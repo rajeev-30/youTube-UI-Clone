@@ -261,11 +261,9 @@ h3 {
 
 /* ------------------------------ Play video page ------------------------------- */
 .play-container {
+  padding-left: 2%;
 }
-.small-sidebar .play-container{
-  padding-left: 5%;
 
-}
 .row {
   display: flex;
   justify-content: space-between;
