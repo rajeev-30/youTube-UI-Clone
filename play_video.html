@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>youTube UI Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -34,9 +40,288 @@
       </div>
     </nav>
 
-    <!-- ------------------------------------- Main ------------------------------------ -->
-    <div class="container">
-        
+    <!-- -----------------------------------------------------------------Side Bar----------------------------------------------- -->
+    <div class="side-bar">
+      <div class="shortcut-links">
+        <a href="/">
+          <img src="images/home.png" />
+          <p>Home</p>
+        </a>
+        <a href="/">
+          <img src="images/explore.png" />
+          <p>Explore</p>
+        </a>
+        <a href="/">
+          <img src="images/subscriprion.png" />
+          <p>Subscriprion</p>
+        </a>
+        <a href="/">
+          <img src="images/library.png" />
+          <p>Library</p>
+        </a>
+        <a href="/">
+          <img src="images/history.png" />
+          <p>History</p>
+        </a>
+        <a href="/">
+          <img src="images/playlist.png" />
+          <p>Playlist</p>
+        </a>
+        <a href="/">
+          <img src="images/messages.png" />
+          <p>Messages</p>
+        </a>
+        <a href="/">
+          <img src="images/show-more.png" />
+          <p>Show-more</p>
+        </a>
+        <hr />
+      </div>
+
+      <div class="subscrbed-list">
+        <h3>SUBSCRIBED</h3>
+        <a href="/">
+          <img src="images/rajeev1.jpg" />
+          <p>Rajeev</p>
+        </a>
+        <a href="/">
+          <img src="images/rajeev1.jpg" />
+          <p>Rajeev</p>
+        </a>
+        <a href="/">
+          <img src="images/rajeev1.jpg" />
+          <p>Rajeev</p>
+        </a>
+      </div>
     </div>
+
+    <!-- ------------------------------------- Main ------------------------------------ -->
+    <div class="container play-container">
+      <div class="row">
+        <div class="play-video">
+          <video controls autoplay>
+            <source src="images/video.mp4" type="video/mp4">
+          </video>
+
+          <div class="tags">
+            <a href="">#Coding</a>
+            <a href="">#HTML</a>
+            <a href="">#CSS</a>
+            <a href="">#JS</a>
+            <a href="">#React JS</a>
+          </div>
+          
+          <h4>Best channel for coding</h4>
+          <div class="play-video-info">
+            <p>1M view &bull; 5 days ago</p>
+            
+            <div>
+              <a href=""><img src="images/like.png">125</a>
+              <a href=""><img src="images/dislike.png">25</a>
+              <a href=""><img src="images/share.png">Share</a>
+              <a href=""><img src="images/save.png">Save</a>
+            </div>
+          </div>
+          <hr>
+
+          <div class="publisher">
+            <img src="images/rajeev1.jpg" alt="">
+            <div>
+              <p>KuchhBhi</p>
+              <span>1M Subscriber</span>
+            </div>
+            <button type="button">Subscribe</button>
+          </div>
+
+          <div class="vid-description">
+            <p>Channel that makes learning easy</p>
+            <p>Subscribe KUchhBhi for more such content</p>
+            <hr>
+            <h4>6766 Comments</h4>
+
+            <div class="add-comment">
+              <img src="images/rajeev1.jpg" alt="">
+              <input type="text" placeholder="Write comments..." >
+            </div>
+            
+            <div class="old-comment">
+              <img src="images/rajeev1.jpg" alt="">
+
+              <div><h4>Surya <span>5 days ago</span></h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente cumque labore et ex maxime magni. Quidem, culpa magnam illum velit tempore temporibus quaerat quas autem laborum accusamus soluta fugit recusandae provident amet cupiditate.</p>
+                <div class="acomment-action">
+                  <img src="images/like.png" alt="">
+                  <span>2777</span>
+                  <img src="images/dislike.png" alt="">
+                  <span>67</span>
+                  <span>REPLY</span>
+                  <a href="">All Replies</a>
+                  
+                </div>
+              </div>
+
+            </div>
+            <div class="old-comment">
+              <img src="images/rajeev1.jpg" alt="">
+
+              <div><h4>Surya <span>5 days ago</span></h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente cumque labore et ex maxime magni. Quidem, culpa magnam illum velit tempore temporibus quaerat quas autem laborum accusamus soluta fugit recusandae provident amet cupiditate.</p>
+                <div class="acomment-action">
+                  <img src="images/like.png" alt="">
+                  <span>2777</span>
+                  <img src="images/dislike.png" alt="">
+                  <span>67</span>
+                  <span>REPLY</span>
+                  <a href="">All Replies</a>
+
+                </div>
+              </div>
+
+            </div>
+            <div class="old-comment">
+              <img src="images/rajeev1.jpg" alt="">
+
+              <div><h4>Surya <span>5 days ago</span></h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente cumque labore et ex maxime magni. Quidem, culpa magnam illum velit tempore temporibus quaerat quas autem laborum accusamus soluta fugit recusandae provident amet cupiditate.</p>
+                <div class="acomment-action">
+                  <img src="images/like.png" alt="">
+                  <span>2777</span>
+                  <img src="images/dislike.png" alt="">
+                  <span>67</span>
+                  <span>REPLY</span>
+                  <a href="">All Replies</a>
+
+                </div>
+              </div>
+
+            </div>
+            
+            
+
+          </div>
+
+
+        </div>
+
+        <div class="right-sidebar">
+          <div class="side-video-list">
+            <a href="" class="small-thumbnail">
+              <img src="images/thumbnail1.png" alt="" />
+            </a>
+
+            <div class="vid-info">
+              <a href="">Best channel for coding</a>
+              <p>KuchhBhi</p>
+              <p>500k view</p>
+            </div>
+          </div>
+
+        <div class="right-sidebar">
+          <div class="side-video-list">
+            <a href="" class="small-thumbnail">
+              <img src="images/thumbnail3.png" alt="" />
+            </a>
+
+            <div class="vid-info">
+              <a href="">Best channel for coding</a>
+              <p>KuchhBhi</p>
+              <p>500k view</p>
+            </div>
+          </div>
+
+        <div class="right-sidebar">
+          <div class="side-video-list">
+            <a href="" class="small-thumbnail">
+              <img src="images/thumbnail4.png" alt="" />
+            </a>
+
+            <div class="vid-info">
+              <a href="">Best channel for coding</a>
+              <p>KuchhBhi</p>
+              <p>500k view</p>
+            </div>
+          </div>
+
+        <div class="right-sidebar">
+          <div class="side-video-list">
+            <a href="" class="small-thumbnail">
+              <img src="images/thumbnail5.png" alt="" />
+            </a>
+
+            <div class="vid-info">
+              <a href="">Best channel for coding</a>
+              <p>KuchhBhi</p>
+              <p>500k view</p>
+            </div>
+          </div>
+
+        <div class="right-sidebar">
+          <div class="side-video-list">
+            <a href="" class="small-thumbnail">
+              <img src="images/thumbnail6.png" alt="" />
+            </a>
+
+            <div class="vid-info">
+              <a href="">Best channel for coding</a>
+              <p>KuchhBhi</p>
+              <p>500k view</p>
+            </div>
+          </div>
+
+        <div class="right-sidebar">
+          <div class="side-video-list">
+            <a href="" class="small-thumbnail">
+              <img src="images/thumbnail2.png" alt="" />
+            </a>
+
+            <div class="vid-info">
+              <a href="">Best channel for coding</a>
+              <p>KuchhBhi</p>
+              <p>500k view</p>
+            </div>
+          </div>
+
+        <div class="right-sidebar">
+          <div class="side-video-list">
+            <a href="" class="small-thumbnail">
+              <img src="images/thumbnail7.png" alt="" />
+            </a>
+
+            <div class="vid-info">
+              <a href="">Best channel for coding</a>
+              <p>KuchhBhi</p>
+              <p>500k view</p>
+            </div>
+          </div>
+
+        <div class="right-sidebar">
+          <div class="side-video-list">
+            <a href="" class="small-thumbnail">
+              <img src="images/thumbnail8.png" alt="" />
+            </a>
+
+            <div class="vid-info">
+              <a href="">Best channel for coding</a>
+              <p>KuchhBhi</p>
+              <p>500k view</p>
+            </div>
+          </div>
+
+          <div class="side-video-list">
+            <a href="" class="small-thumbnail"
+              ><img src="images/thumbnail2.png" alt="" />
+            </a>
+
+            <div class="vid-info">
+              <a href="">Best channel for coding</a>
+              <p>KuchhBhi</p>
+              <p>500k view</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
   </body>
 </html>
